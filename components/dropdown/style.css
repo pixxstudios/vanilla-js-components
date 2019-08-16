@@ -8,6 +8,7 @@
     font-size: 15px;
     font-family: sans-serif;
     cursor: pointer;
+    outline: none;
 }
 
 .dropdown {
@@ -17,6 +18,7 @@
     height: auto;
     min-height: 35px;
     background: whitesmoke;
+    outline: none;
 }
 
 #search {
@@ -25,4 +27,5 @@
     height: 35px;
     font-size: 15px;
     padding-left: 15px;
+    outline: none;
 }
