@@ -25,6 +25,19 @@
     outline: none;
 }
 
+.dropdown ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown ul li {
+    list-style: none;
+    border-bottom: 1px solid grey;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 #search {
     box-sizing: border-box;
     width: 100%;
