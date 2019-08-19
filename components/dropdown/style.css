@@ -28,6 +28,7 @@
 .dropdown ul {
     margin: 0px;
     padding: 0px;
+    font-family: fantasy;
 }
 
 .dropdown ul li {
@@ -36,6 +37,11 @@
     height: 30px;
     padding-left: 15px;
     padding-top: 10px;
+    cursor: pointer;
+}
+
+.dropdown ul li:hover {
+    background: rgba(255, 210, 131, 0.598);
 }
 
 #search {
