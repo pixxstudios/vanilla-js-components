@@ -4,7 +4,7 @@ function dropdown() {
 
 function onSearch() {
     const input = document.getElementById('search');
-    const val = input.value;
+    const val = input.value.toLowerCase();
 
     const dd = document.getElementById('dropdown');
     const list = dd.getElementsByTagName('li');
