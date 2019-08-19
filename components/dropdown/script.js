@@ -10,7 +10,6 @@ function onSearch() {
     const list = dd.getElementsByTagName('li');
 
     for(i=0; i<list.length; i++) {
-        console.log(list[i].innerText);
         const text = list[i].textValue || list[i].innerText;
         if(text.toLowerCase().indexOf(val) > -1) {
             list[i].style.display = "";
