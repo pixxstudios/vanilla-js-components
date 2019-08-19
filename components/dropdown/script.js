@@ -5,5 +5,17 @@ function dropdown() {
 function onSearch() {
     const input = document.getElementById('search');
     const val = input.value;
-    console.log(val);
+
+    const dd = document.getElementById('dropdown');
+    const list = dd.getElementsByTagName('li');
+
+    for(i=0; i<list.length; i++) {
+        console.log(list[i].innerText);
+        const text = list[i].textValue || list[i].innerText;
+        if(text.toLowerCase().indexOf(val) > -1) {
+            list[i].style.display = "";
+        } else {
+            list[i].style.display = "none";
+        }
+    } 
 }
