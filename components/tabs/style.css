@@ -2,6 +2,10 @@
     margin: 2rem;
 }
 
+section {
+    height: 40px;
+}
+
 .nav-tabs {
     width: 100%;
     float: left;
@@ -33,4 +37,21 @@
 
 .nav-tabs li:hover {
     color: rgb(9, 53, 34);
+}
+
+.content {
+    position: relative;
+    display: none;
+}  
+
+.content > .active {
+    display: block;
+    position: absolute;
+    border: 1px solid rgb(120, 120, 120);
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 100;
 }
