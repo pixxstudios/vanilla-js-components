@@ -41,10 +41,13 @@ section {
 
 .content {
     position: relative;
-    display: none;
 }  
 
-.content > .active {
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
     display: block;
     position: absolute;
     border: 1px solid rgb(120, 120, 120);
