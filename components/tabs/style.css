@@ -19,6 +19,18 @@
     cursor: pointer;
 }
 
+.nav-tabs li.active {
+    background-color: coral;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.nav-tabs li.active:hover {
+    background-color: coral;
+    color: rgb(255, 208, 208);
+}
+
 .nav-tabs li:hover {
     color: rgb(9, 53, 34);
 }
