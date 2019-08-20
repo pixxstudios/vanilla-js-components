@@ -10,6 +10,14 @@ window.addEventListener('load', function() {
         }
         e.currentTarget.classList.add('active');
         e.preventDefault();
+
+        // tabs selection logic
+        var panes = document.querySelectorAll('.tab-pane');
+        for(var i = 0; i < panes.length; i++) {
+            panes[i].classList.remove('active');
+        }
+        var activePane = e.target.getAttribute('data-id');
+        document.querySelector(activePane).classList.add('active');
     }
 
     // add click event on all tabs
